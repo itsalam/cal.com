@@ -154,7 +154,7 @@ export type FormValues = {
   isRRWeightsEnabled: boolean;
   maxLeadThreshold?: number;
   multipleRRHosts: boolean;
-  RRHostsPerMeeting?: number;
+  rrHostsPerMeeting?: number;
 };
 
 export type LocationFormValues = Pick<FormValues, "id" | "locations" | "bookingFields" | "seatsPerTimeSlot">;

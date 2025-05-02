@@ -127,7 +127,7 @@ export const useEventTypeForm = ({
       },
       isRRWeightsEnabled: eventType.isRRWeightsEnabled,
       multipleRRHosts: eventType.multipleRRHosts,
-      RRHostsPerMeeting: eventType.RRHostsPerMeeting,
+      rrHostsPerMeeting: eventType.rrHostsPerMeeting,
       maxLeadThreshold: eventType.maxLeadThreshold,
       useEventLevelSelectedCalendars: eventType.useEventLevelSelectedCalendars,
       customReplyToEmail: eventType.customReplyToEmail || null,
